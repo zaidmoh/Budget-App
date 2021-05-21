@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ededee;
+}
+#main-heading{
+    margin: 10px 0px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.left-part{
+    margin:20px 50px;
+    width: 40%;
+    display: inline-block;
+    height: 600px;
+}
+
+.budget{
+    border: 2px solid green;
+    border-radius: 5px;
+    padding:20px;
+    margin: 10px;
+}
+
+.expense{
+    border: 2px solid rgb(128, 7, 7);
+    border-radius: 3px;
+    padding: 20px;
+    margin: 40px 10px 0px 10px;
+}
+input[type=button]{
+    padding: 7px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input:not([type=button]){
+    margin: 10px 0px;
+    padding: 5px;
+    width: 100%;
+}
+input:focus{
+    list-style-type: none;
+}
+
+.right-part{
+    display: inline-block;
+    margin-top: 35px;
+    vertical-align: top;
+}
+
+.spend{
+    display: inline-block;
+    margin:0px 0px 0px 20px;
+}
+
+.spend h1{
+    padding:10px;
+    margin-top: 20px;
+}
+.budget-icon{
+    font-size: 50px;
+    color: blue;
+}
+
+.upper-part{
+    height: 35vh;
+    float: top;
+}
+
+.lower-part{
+    margin-left: 20px;
+}
+#expense-title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.expense-details{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+}
