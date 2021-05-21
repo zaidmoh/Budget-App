@@ -31,8 +31,9 @@ function updateAmount(){
 
 function updateExpenseList(){
     let expName=expenseName.value;
-    let expenseValue=eval(expenseAmt.value);
-    if(expName==''||expenseValue==''){
+    let temp=expenseAmt.value;
+    let expenseValue=eval(temp);
+    if(expName==''||expenseValue==''||temp==''){
         alert('Please Input the Value');
         return;
     }
